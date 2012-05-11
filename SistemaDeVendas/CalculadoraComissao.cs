@@ -26,4 +26,9 @@ namespace SistemaDeVendas
             return resultado;
         }
     }
+
+    public interface ICalculadoraComissao
+    {
+        double calculaComissao(double p);
+    }
 }

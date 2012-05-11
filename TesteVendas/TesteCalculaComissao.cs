@@ -37,7 +37,7 @@ namespace TesteVendas
         [TestMethod]
         public void TestVenda500ReaisCalculaComissaoIguala25()
         {
-            double valorComissao = 26;
+            double valorComissao = 25;
             double valorVendas = 500;
             double valorCalculado;
 
