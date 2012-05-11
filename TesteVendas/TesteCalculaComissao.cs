@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,7 +37,7 @@ namespace TesteVendas
         [TestMethod]
         public void TestVenda500ReaisCalculaComissaoIguala25()
         {
-            double valorComissao = 25;
+            double valorComissao = 26;
             double valorVendas = 500;
             double valorCalculado;
 
